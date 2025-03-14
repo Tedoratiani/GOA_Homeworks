@@ -1,0 +1,30 @@
+#a{
+    text-decoration: dashed;
+}
+#b{
+    text-decoration: dotted;
+}
+#c{
+    text-decoration: double;
+}
+#d{
+    text-decoration: line-through;
+}
+#e{
+    text-decoration: none;
+}
+#f{
+    text-decoration: overline;
+}
+#g{
+    text-decoration: solid;
+}
+#h{
+    text-decoration: underline;
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+#i{
+    text-decoration: wavy;
+}

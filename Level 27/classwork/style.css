@@ -1,0 +1,16 @@
+p{
+    color: green;
+    background-color: red;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 900;
+    border: 2px solid green;
+}
+div{
+    color:red ;
+    background-color: green;
+    text-align: left;
+    font-size: 90px;
+    font-weight: 200;
+    border: 20px dotted black;
+}

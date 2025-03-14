@@ -1,0 +1,66 @@
+#A{
+    color: blue;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* When The link is not visited yet */
+#A:link{
+    text-decoration: underline;
+}
+/* when link is already visited */
+/* ამ ფსევდო-სელექტორის გამოყენება საჭიროა რადგან მომხმარებლისთის უფრო კარგია შემთხვევით არ გადავა იგივე ლინკზე,
+უფო ლამაზია მისი თვალისთის. */
+#A:visited{
+    text-decoration: none;
+    color: lightblue;
+    font-weight: 300;
+    font-size: 16px;
+}
+/* when mouse is over the link */
+#A:hover{
+    background-color: lightcyan;
+    color: darkblue;
+    text-decoration: line-through;
+}
+/* when link is pressed */
+#A:active{
+    color: black;
+}
+
+#B{
+    color: green;
+    font-weight: 900;
+    font-size: 40px;
+}
+#B:link{
+    text-decoration: overline;
+}
+#B:visited{
+    color: lightgreen;
+    font-weight: 200;
+    font-size: 10px;
+}
+#B:hover{
+    background-color: green;
+    color: lightblue;
+    text-decoration: line-through;
+}
+#B:active{
+    color: black;
+}
+
+
+
+button{
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    color: white;
+    background-color: #7a1dff;
+    border-radius: 40px;
+    transition: 0.9s;
+}
+button:hover{
+    color: #7a1dff;
+    background-color: white;
+}

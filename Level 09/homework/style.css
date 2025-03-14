@@ -1,0 +1,43 @@
+a{text-decoration: none;}
+a:hover{
+    color: red;
+}
+.headerbox{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+body{
+    background-color: lightgrey;
+}
+.sectionvox{
+    
+    width: 800px;
+    padding: 10px 0px 10px 0px;
+    margin: 0 auto;
+    background-color: coral;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box1{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.infobox{
+    width: 250px;
+    height: 250px;
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
+

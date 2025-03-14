@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+  }
+
+  section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  p {
+    font-family: 'Lora', serif;
+    line-height: 1.6;
+    font-size: 18px;
+  }
+  #div{
+    display: flex;
+    justify-content: center;
+  }
+  table{
+    border: 2px solid black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  th, td{
+    border: 2px solid black;
+  }

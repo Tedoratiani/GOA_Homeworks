@@ -1,0 +1,89 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+  tr:first-child {
+    background-color: #ffeb3b;
+    font-weight: bold;
+  }
+  ol {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    padding-left: 20px;
+  }
+  ul {
+    list-style: none;
+  }
+  input[type="text"] {
+    border: 2px solid #4CAF50;
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+  }
+
+  input[type="email"] {
+    border: 2px solid #2196F3;
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+  }
+
+  input[type="password"] {
+    border: 2px solid #f44336;
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .lemon {
+    width: 100px;
+    height: 50px;
+    background-color: #ffeb3b;
+    border-radius: 50% 50% / 70% 70%;
+    position: relative;
+    margin: 50px auto;
+  }
+
+  .lemon::before,
+  .lemon::after {
+    content: '';
+    position: absolute;
+    background-color: #ffeb3b;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .lemon::before {
+    left: -10px;
+  }
+
+  .lemon::after {
+    right: -10px;
+  }

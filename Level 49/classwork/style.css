@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+}
+
+.image-section {
+    flex: 1;
+    background-image: url('https://via.placeholder.com/300x200'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+}
+
+.content-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-section h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.content-section p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 0 20px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.author-info img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.share-icon {
+    margin-left: auto;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    background-image: url('https://via.placeholder.com/18'); /* Replace with share icon */
+    background-size: cover;
+}

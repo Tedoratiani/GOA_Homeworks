@@ -1,0 +1,695 @@
+body {
+    background-color: #fff;
+  }
+  header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: #384b06;
+    position: fixed;
+    .box {
+      width: 1242px;
+      height: 58px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        width: 58px;
+        height: 58px;
+        img {
+          width: 58px;
+          height: 58px;
+        }
+      }
+      form {
+        width: 610px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #e9e9e9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        input {
+          height: 50px;
+          max-width: 750px;
+          width: 550px;
+          border: 0px;
+          border-radius: 10px;
+          background-color: #e9e9e9;
+          ::-webkit-input-placeholder {
+            color: #222;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+          }
+          ::-moz-placeholder {
+            color: #222;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+          }
+          :-ms-input-placeholder {
+            color: #222;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+          }
+          ::-ms-input-placeholder {
+            color: #222;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+          }
+          ::placeholder {
+            color: #222;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+          }
+        }
+        .icon {
+          font-size: 24px;
+        }
+      }
+      .profile {
+        width: 190px;
+        height: 50px;
+        background-color: #e9e9e9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        .myprofile {
+          width: 110px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+  
+          .fa-user {
+            font-size: 24px;
+          }
+  
+          h1 {
+            color: #222;
+            font-family: "Inter";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+          }
+        }
+      }
+      .fa-2xl {
+        display: none;
+      }
+    }
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  // hederis media
+  @media (max-width: 1250px) {
+    header {
+      .box {
+        width: 96%;
+      }
+    }
+  }
+  @media (max-width: 910px) {
+    header {
+      .box {
+        .profile {
+          display: none;
+        }
+        .fa-2xl {
+          display: inline-block;
+        }
+      }
+    }
+  }
+  @media (max-width: 750px) {
+    header {
+      height: 80px;
+      .box {
+        form {
+          width: auto;
+          input {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 430px) {
+    header {
+      height: 50px;
+      .box {
+        height: 30px;
+        a {
+          width: 40px;
+          height: 40px;
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        form {
+          height: 40px;
+          input {
+            width: 130px;
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 64px;
+    width: 100%;
+    height: 74px;
+    background-color: rgba(113, 111, 67, 1);
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    .box2 {
+      margin: 0 auto;
+      width: 1240px;
+      height: 58px;
+      display: flex;
+      justify-content: space-between;
+      .cool {
+        width: 58px;
+        height: 58px;
+        img {
+          width: 58px;
+          height: 58px;
+        }
+      }
+  
+      a {
+        color: #e9e9e9;
+        font-family: "Inter";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      a:hover {
+        color: aqua;
+      }
+      a {
+        .fa-square-facebook {
+          font-size: 40px;
+        }
+      }
+      a {
+        .fa-instagram {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    footer {
+      .box2 {
+        .atag {
+          display: none;
+        }
+        a {
+          .fa-square-facebook {
+            font-size: 30px;
+          }
+        }
+        a {
+          .fa-instagram {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 460px) {
+    footer {
+      .box2 {
+        .atag1 {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .s1 {
+    margin-top: 64px;
+    .box3 {
+      margin: 0 auto;
+      max-width: 1240px;
+      width: 100%;
+      min-height: 340px;
+      display: flex;
+  
+      justify-content: space-between;
+      .h1 {
+        color: #6c3c1a;
+        font-family: "Bona Nova";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: none;
+      }
+      .imgwrapper {
+        max-width: 610px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        height: 340px;
+        img {
+          max-width: 505px;
+          height: 340px;
+          border-radius: 10px;
+        }
+        .imgcolumn {
+          max-width: 85px;
+          width: 100%;
+          max-height: 340px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          img {
+            max-width: 85px;
+            height: 50px;
+            border-radius: 10px;
+          }
+        }
+      }
+      .information {
+        max-width: 505px;
+        height: 340px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h1 {
+          color: #6c3c1a;
+          font-family: "Bona Nova";
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        p {
+          color: #000;
+          font-family: "Inter";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 24px;
+        }
+        .buybox {
+          height: 44px;
+          width: 305px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h1 {
+            color: #000;
+            font-family: "Inter";
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+          .iconwrapper {
+            align-items: center;
+            width: 105px;
+            display: flex;
+            justify-content: space-between;
+            .fa-heart {
+              font-size: 31px;
+            }
+            .fa-cart-shopping {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1240px) {
+    .s1 {
+      .box3 {
+        width: 98%;
+      }
+    }
+  }
+  @media (max-width: 1126px) {
+    .s1 {
+      .box3 {
+        flex-direction: column;
+      }
+    }
+  }
+  @media (max-width: 618px) {
+    .s1 {
+      .box3 {
+        .h1 {
+          display: inline-block;
+          margin-bottom: 16px;
+        }
+        .imgwrapper {
+          flex-direction: column;
+          margin-bottom: 76px;
+          .imgcolumn {
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+            .img1 {
+              display: none;
+            }
+          }
+        }
+        .information {
+          .cool {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 510px) {
+    .box3 {
+      width: 33.3%;
+      .imgwrapper {
+        width: 320px;
+        height: 251px;
+        margin-bottom: 30px;
+        img {
+          width: 320px;
+          height: 194px;
+        }
+        .imgcolumn {
+          width: 320px;
+          gap: 16px;
+          height: 41px;
+          img {
+            width: 68px;
+            height: 41px;
+          }
+        }
+      }
+    }
+  }
+  
+  .s2 {
+    margin-top: 64px;
+    .box4 {
+      max-width: 1241px;
+      width: 100%;
+      height: 503px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      .topic {
+        max-width: 1241px;
+        width: 100%;
+        height: 43px;
+        display: flex;
+        justify-content: space-between;
+        h1 {
+          color: #222;
+          font-family: "Bona Nova";
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        .seemore {
+          display: none;
+          width: 84px;
+          height: 43px;
+          background-color: #384b06;
+          border-radius: 12px;
+          justify-content: center;
+          align-items: center;
+          h1 {
+            color: #e9e9e9;
+            font-family: Arial;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0.24px;
+          }
+        }
+      }
+      .cardwrapper {
+        max-width: 1241px;
+        height: 436px;
+        display: flex;
+        justify-content: space-between;
+        .card1 {
+          width: 335px;
+          height: 436px;
+          .cardimg1 {
+            width: 335px;
+            height: 232px;
+            background-image: url(../img/qutaisi01.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            border-radius: 10px 10px 0px 0px;
+            .fa-heart {
+              position: absolute;
+              right: 10px;
+              top: 10px;
+              font-size: 30px;
+            }
+            .fa-heart:hover {
+              scale: 1.6;
+              transition-duration: 2s;
+            }
+          }
+          .cardinfo {
+            width: 335px;
+            height: 204px;
+            display: flex;
+            border-radius: 0px 0px 10px 10px;
+            border: 1px solid #d3d3d3;
+            flex-direction: column;
+            gap: 16px;
+            padding-top: 16px;
+            padding-left: 20px;
+            h1 {
+              color: #222;
+              font-family: "Inter";
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+            p {
+              color: #000;
+              font-family: "Inter";
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: 22px;
+            }
+            a {
+              color: #000;
+              font-family: "Inter";
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            a:hover {
+              color: aqua;
+            }
+          }
+        }
+        .card2 {
+          width: 335px;
+          height: 436px;
+          .cardimg2 {
+            width: 335px;
+            height: 232px;
+            background-image: url(../img/tbilisi.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            border-radius: 10px 10px 0px 0px;
+            .fa-heart {
+              position: absolute;
+              right: 10px;
+              top: 10px;
+              font-size: 30px;
+            }
+            .fa-heart:hover {
+              scale: 1.6;
+              transition-duration: 2s;
+            }
+          }
+          .cardinfo {
+            width: 335px;
+            height: 204px;
+            display: flex;
+            border-radius: 0px 0px 10px 10px;
+            border: 1px solid #d3d3d3;
+            flex-direction: column;
+            gap: 16px;
+            padding-top: 16px;
+            padding-left: 20px;
+            h1 {
+              color: #222;
+              font-family: "Inter";
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+            p {
+              color: #000;
+              font-family: "Inter";
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: 22px;
+            }
+            a {
+              color: #000;
+              font-family: "Inter";
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            a:hover {
+              color: aqua;
+            }
+          }
+        }
+        .card3 {
+          width: 335px;
+          height: 436px;
+          .cardimg3 {
+            width: 335px;
+            height: 232px;
+            background-image: url(../img/BATUMI.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            border-radius: 10px 10px 0px 0px;
+            .fa-heart {
+              position: absolute;
+              right: 10px;
+              top: 10px;
+              font-size: 30px;
+            }
+            .fa-heart:hover {
+              scale: 1.6;
+              transition-duration: 2s;
+            }
+          }
+          .cardinfo {
+            width: 335px;
+            height: 204px;
+            display: flex;
+            border-radius: 0px 0px 10px 10px;
+            border: 1px solid #d3d3d3;
+            flex-direction: column;
+            gap: 16px;
+            padding-top: 16px;
+            padding-left: 20px;
+            h1 {
+              color: #222;
+              font-family: "Inter";
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+            p {
+              color: #000;
+              font-family: "Inter";
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: 22px;
+            }
+            a {
+              color: #000;
+              font-family: "Inter";
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            a:hover {
+              color: aqua;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1250px) {
+    .s2 {
+      .box4 {
+        width: 98%;
+      }
+    }
+  }
+  @media (max-width: 1040px) {
+    .s2 {
+      .box4 {
+        .topic {
+          .seemore {
+            display: flex;
+          }
+        }
+        .cardwrapper {
+          .card3 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 685px) {
+    .s2 {
+      .box4 {
+        .cardwrapper {
+          justify-content: center;
+          .card2 {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 560px) {
+    .s2 {
+      .box4 {
+        .topic {
+          h1 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  

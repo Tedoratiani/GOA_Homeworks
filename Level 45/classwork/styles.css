@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafc;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.row.two-cards {
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+    max-width: 280px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+}
+
+.card p {
+    color: #777;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+.card img {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.supervisor {
+    border-top: 4px solid #30d5c8;
+}
+
+.team-builder {
+    border-top: 4px solid #f15454;
+}
+
+.karma {
+    border-top: 4px solid #f5a623;
+}
+
+.calculator {
+    border-top: 4px solid #4a90e2;
+}

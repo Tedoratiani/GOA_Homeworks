@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5e1ef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #fff;
+    border-radius: 16px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* QR Code Section */
+  .qr-code img {
+    width: 100%;
+    max-width: 200px;
+    margin: 16px auto 0;
+    display: block;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-content h1 {
+    font-size: 18px;
+    color: #1f2937;
+    margin: 16px 0;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #4b5563;
+    margin: 0;
+    line-height: 1.5;
+  }

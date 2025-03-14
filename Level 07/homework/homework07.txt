@@ -1,0 +1,44 @@
+br და pre ელემენტები.
+br არის ცარიელი ანუ empty თაგი და მას ჩვენ ვიყენებთ იმისთვის რათა ტექსტში ვუთხრათ რო რაღაც ნაწილი დაიწყოს ახალი ხაზიდან ან უბრალოდ ელემნტი დაიწყოს შემდეგი ხაზიდან.
+როგორც ვიცით კოდში როცა დავწერთ მაგ. პარაგრაფს ის თუნდაც სამ ხაზზე გვქონდეს გაწერილი გამოჩნდება ვებსაიტზე მარტო ერთზე. ხოლო br დახმარებით ჩვენ ვეუბნებით კოდს და ვებსაიტს რომ ამ ნაწილიდან აიწყოს ახალი ხაზი.
+          <p>
+            I am Teodore ratiani. i am 15 years old. I live in Tbilisi. I go to
+            64 public school. Also i study at GOA(Goal-Oriented-Academy).
+            <br><br>
+            I want to become a Full-stack and Game developer. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit.
+            <br><br>
+            I am studying in GOA. This is one of the best academy to learn programming.
+            My hobby is programming, playing games and spending time with friends.
+          </p> 
+          აქ br რომ არ ყოფილიყო მაშინ ეს ყველაფერი იქნებოდა ერთ ხაზზე. და ახალზე მარტო მაშინ გადავიდოდა როცა ეკრანზე აღარ დაეტევოდა.
+ხოლო pre არის კონტეინერ ელემენტი და მას ვიყენებთ მაშინ როცა რადმენიმე ხაზზე გვინდა დავწეროთ. ამ დროს თუ ასე გავწერთ:
+          <pre>
+            I am Teodore ratiani. i am 15 years old. I live in Tbilisi. I go to
+            64 public school. Also i study at GOA(Goal-Oriented-Academy).
+            
+            I want to become a Full-stack and Game developer. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit.
+            
+            I am studying in GOA. This is one of the best academy to learn programming.
+            My hobby is programming, playing games and spending time with friends.
+          </pre> მაშინ კოდი აღიქვამს ამ ხაზებს და გამოსახავს ისე როგორც არის ნაჩვენები
+
+
+ინდენტაცია არის კოდის რიგების დაშორება და მათი ორგანიზება რომელიც ეხმარება კოდის სტრუქტურას და  მის მკაფიოდ გაგებას. არსებობს ტექნოლოგიები და ენები რომლისთვისაც აუცილებელია ინდენტაცია.
+აუცილებელია მაგალითად pyhtonისთვის. როცა ჩვენ ვწერ მაგ. if conditions ამ შემთხვევაში აუცილებელია ინდენტაციის დაცვარ რათა ამ შემთხვევაში vscodeმმა სწორად წაიკითხოს კოდი და მიხვდეს ესა თუ ის კოდი რომელ ბლოკშია.
+
+if condition:
+    ეს კოდი შემოიფარგლება ინდენტაციით
+    do_something()
+else:
+    ეს კოდი სხვა ბლოკშია
+    do_something_else() 
+    აი ასე. ესენი რო ერთ ხაზზე იყოს მაშინ ედიტორი არასწორად წაიკითხავდა, ვერ მიხვდებოდა რომელი რაცს ეკუთვნის.
+და არ არის აუცილებელი htmlში. რადგან html ყველანაირ ფორმატიების გარეშე აღიქვამს კოდს. მაგრამ პროგრამისტებს შორის მიღებულია რომ ინდენტაცია ყველა შემთხვევაში უნდა დავიცვათ, რადგან ასე უფრო მარტივია კოდის წაკითვა ყველასთის. ჩვენ მარტივან აღვიქმავთ თუ რა ელემენტი, ბრძანება... სად შედის.
+
+Nesting არის როცა ერთი ელემენტი/ბრძანება არის მოქცეული მეორეში.მაგალითად HTML ტექნოლოგიაში head ელემენტში მოქცეულია meta,title და სხვა ელემენტები.
+<body>
+    <p></p>
+</body>
+p ელემენტი არის მოქცეული bodyში ანუ p is nested in body.

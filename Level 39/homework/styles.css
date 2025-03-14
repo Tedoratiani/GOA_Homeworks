@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121221;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .text-section {
+    flex: 1;
+  }
+  
+  .text-section h1 {
+    font-size: 36px;
+    line-height: 1.4;
+  }
+  
+  .text-section .highlight {
+    color: #a855f7;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 16px 0 24px;
+    color: #d1d5db;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .stat p {
+    font-size: 12px;
+    color: #9ca3af;
+    margin: 4px 0 0;
+  }
+  
+  .image-section {
+    flex: 1;
+  }
+  
+  .image-section img {
+    width: 100%;
+    border-radius: 8px;
+    filter: grayscale(100%) brightness(0.8) contrast(1.2) hue-rotate(-30deg);
+  }
