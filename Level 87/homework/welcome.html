@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome Page</title>
+</head>
+<body>
+  <h2>Welcome Page</h2>
+
+  <div id="greeting"></div>
+
+  <script>
+    const userName = localStorage.getItem('userName');
+    if (userName) {
+      document.getElementById('greeting').textContent = `Welcome, ${userName}!`;
+    } else {
+      document.getElementById('greeting').textContent = 'No user found!';
+    }
+  </script>
+</body>
+</html>
