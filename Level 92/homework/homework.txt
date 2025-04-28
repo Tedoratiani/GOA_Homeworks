@@ -1,0 +1,82 @@
+1. Is str data type mutable or immutable?
+ str არის immutable (უცვლელი). როდესაც ცვლით რაიმეს, სინამდვილეში იქმნება ახალი ობიექტი მეხსიერებაში, ძველი კი 
+ უცვლელი რჩება.
+
+2. If str is immutable then how does .replace() method work?
+ .replace() ქმნის ახალ ობიექტს და არ ცვლის ორიგინალს..replace() აბრუნებს ახალ ობიექტს ახალი მნიშვნელობით.
+
+3. Are all collection types matched to their bracket types?
+
+list: [] სწორად ეწერა
+
+tuple: ()  tuple როგორც ვისწავკეთ არი () და არა {}
+
+dict: {} სწორადაა
+
+set: {} 
+
+4. Is sentence "I created function" syntactically correct or not?
+არა, სწორია "I defined a function."
+
+5. Is Python case-sensitive?
+ კი, Python არის case-sensitive ენა.
+ variable, Variable, და VARIABLE განიხილება როგორც სხვადასხვა ცვლადები.
+
+6. What will print(True + True) output?
+ 2.
+  Python-ში თუ True და Falseზე ვმუშაობთ ისნი აღიქმება უკვე რიცხვებად 1 და 0
+
+7. What will print(int("1_000_000")) output?
+ 1000000.
+Python-ს შეუძლია გაუმკლავდეს underscore-იან რიცხვებს, როგორც ვიზუალურ გამყოფს.
+
+8. What will this code output?
+კოდის ფოტო არაა ჩვენთან
+
+9. Is empty list Truthy or Falsey?
+ Falsey.
+ცარიელი კოლექციები [], {}, (), set() ითვლება False-ად ბულურ კონტექსტში.
+
+10. What will this code output?
+არ გვაქ კოდი
+
+11. Can we create list comprehension with if statement?
+ კი.
+ [x for x in range(5) if x % 2 == 0] 
+
+12. Can we create list comprehension with if-else statement?
+კი.
+ [x if x%2==0 else -x for x in range(5)] 
+
+13. Can you define function inside function?
+ კი, შეგვიძლია.
+ ამას ეწოდება nested functions ან closure.
+
+14. Is there an error type called "ZeroDivisionError"?
+ კი.
+ZeroDivisionError ჩნდება როდესაც ნულზე გაყოფას ვცდილობთ და როგორც ვიცით ნლზე გაყოფა არ შეიძლება.
+
+15. What are lambda functions called?
+მათ ეწოდებათ anonymous functions.
+რადგან მათ სახელი არ აქვთ განსაზღვრული.
+
+16. What are lambda functions called?
+განმეორდა კითხვა
+
+17. What will print(not "") output?
+True.
+ცარიელი სტრიქონი არის Falsey, და not False არი  True.
+
+18. If someone said "Everything is an Object in Python," would it be a lie?
+ არა.
+Python-ში ყველაფერი არის ობიექტი.
+
+19. Are "is" and "==" operators both exactly the same in python?
+ არა.
+"==" ამოწმებს მნიშვნელობას
+
+"is" ამოწმებს იდენტურობას 
+
+20. Is Python high-level or low-level programming language?
+Python არის high-level პროგრამირების ენა.
+Python აფარებს კომპლექსურ დეტალებს და ფოკუსირებულია მარტივ კოდზე.
