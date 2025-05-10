@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>card</title>
+</head>
+<body>
+
+  <!-- მთავარი სექცია, ბარათი და ფორმა -->
+  <section>
+    <div class="creditcardbox">
+
+      <!-- ბარათის სექცია: წინა და უკანა მხარეები -->
+      <div class="card">
+
+        <!-- წინა ბარათი -->
+        <div class="fcard">
+          <img src="images/bg-card-front.png" class="c-front"> <!-- წინა ბარათის სურათი -->
+          <img src="images/card-logo.svg" id="logo" alt=""> <!-- ბარათის ლოგო (მაგ: VISA, MasterCard) -->
+
+          <!-- მონაცემები წინა ბარათზე -->
+          <div class="c-data">
+            <p id="c-number">0000 0000 0000 0000</p> <!-- ბარათის ნომერი -->
+            <p id="c-name">JANE APPLESEED</p> <!-- ბარათის მფლობელის სახელი -->
+          </div>
+
+          <!-- თარიღის ველი -->
+          <div class="c-date">
+            <p id="mm-card">00</p> <!-- თვე -->
+            <p id="slash">/</p>
+            <p id="yy-card">00</p> <!-- წელი -->
+          </div>
+        </div>
+
+        <!-- უკანა ბარათი -->
+        <div class="backcard">
+          <img src="images/bg-card-back.png" class="bcard" alt=""> <!-- უკანა ბარათის სურათი -->
+          <p class="cvcc">444</p> <!-- CVC კოდი -->
+        </div>
+      </div>
+
+      <!-- ფორმის ნაწილი, სადაც ივსება ბარათის ინფორმაცია -->
+      <div class="display-form">
+        <form class="form">
+
+          <!-- ბარათის მფლობელის სახელი და ბარათის ნომრრი -->
+          <div class="card-info1">
+            <label for="grid1">CARDHOLDER NAME
+              <input type="text" class="grid1" maxlength="50">
+              <span class="span-name"></span> <!-- შეცდომის ან ვალიდაციის შეტყობინება -->
+            </label>
+
+            <label for="grid2">Card Number
+              <input type="text" class="grid2" maxlength="19">
+              <span class="span-number"></span>
+            </label>
+          </div>
+
+          <!-- თარიღი და CVC -->
+          <div class="card-info2">
+            <label for="mm">MM
+              <input type="text" class="mm" maxlength="2" style="width:5rem">
+              <span class="span-mmyy"></span>
+            </label>
+
+            <label for="yy">YY
+              <input type="text" class="yy" maxlength="2" style="width:5rem">
+              <span class="span-yy"></span>
+            </label>
+
+            <label for="cvc">CVC
+              <input type="text" class="cvc" maxlength="3" style="width:5rem">
+              <span class="span-cvc"></span>
+            </label>
+          </div>
+
+          <!-- ღილაკი -->
+          <input type="button" class="btn" value="Confirm">
+        </form>
+      </div>
+
+    </div>
+  </section>
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>

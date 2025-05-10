@@ -1,0 +1,67 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Oriented Academy</title>
+    <link rel="icon" href="images/GOA.png">
+    <link rel="stylesheet" href="socialmedia.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-header-main">
+            <div class="navbar-header-main-child-div">
+                <nav>
+                    <a href="welcome.html">მთავარი</a>
+                    <a href="statistics.html">სტატისტიკა</a>
+                    <a href="#">სოციალური მედიები</a>
+                    <a href="goapositions.html">GOA პოზიციები</a>
+                    <a href="courses.html">კურსები</a>
+                    <img src="images/Moon Icon.png" alt="Moon icon" width="20px" id="moon-icon">
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-info">
+            <div class="main-main-info">
+                <h1 id="main-main-child-div-header">სოციალური მედიები</h1>
+                <br>
+                <p>თქვენ გაქვთ შესაძლებლობა რომ ქვევით მოცემული ბმულებიდან გადახვიდეთ გოას ოფიციალურ გვერდებზე</p>
+            </div>
+        </div>
+        <div class="facebook-main-div">
+            <div class="facebook-main-child-div">
+                <img width="100px" src="images/Facebook.png" alt="">
+                <a target="_blank" href="https://www.facebook.com/nika11keshelava/">GOA-ს ოფიციალური ფეისბუქ გვერდი</a>
+            </div>
+        </div>
+        <div class="instagram-main-div">
+            <div class="instagram-main-child-div">
+                <img width="100px" src="images/Instagram Gray.png" alt="">
+                <a target="_blank" href="https://www.instagram.com/goal_oriented_academy__goa/?hl=en">GOA-ს ოფიციალური ინსტაგრამ გვერდი</a>
+            </div>
+        </div>
+        <div class="tiktok-main-div">
+            <div class="tiktok-main-child-div">
+                <img width="100px" src="images/TikTok Gray.png" alt="">
+                <a target="_blank" href="https://www.tiktok.com/@goal_oriented_academy">GOA-ს ოფიციალური ტიკტოკ გვერდი</a>
+            </div>
+        </div>
+    </main>
+
+    <script>const image = document.getElementById('moon-icon');
+        const navbar = document.querySelector('.navbar-header-main');
+        
+        image.addEventListener('click', () => {
+            if (document.body.style.backgroundColor === 'rgb(12, 12, 12)') {
+                document.body.style.backgroundColor = 'white';
+                navbar.style.backgroundColor = 'white';
+            } else {
+                document.body.style.backgroundColor = 'rgb(12, 12, 12)';
+                document.body.style.color = 'white';
+                navbar.style.backgroundColor = 'rgb(12, 12, 12)';
+            }
+        });
+        </script>
+
+</body></html>

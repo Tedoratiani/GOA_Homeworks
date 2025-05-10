@@ -1,0 +1,144 @@
+body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/bg-main-desktop.png"); /* ფონის სურათი Desktop ვერსიისთვის */
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* საერთო სტილი ბარათისთვის */
+.creditcardbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.2fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "card form"
+        "card form"
+        "card form";
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* ბარათების განლაგება */
+.card {
+    grid-area: card;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+    margin-left: 30%;
+}
+
+/* ბარათის წინა მხარე - მონაცემები */
+.c-data {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    color: white;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    position: relative;
+    top: -10.8rem;
+    left: 2rem;
+}
+
+/* ბარათის ნომერი */
+#c-number {
+    font-size: 1.8rem;
+}
+
+/* თარიღის განლაგება ბარათზე */
+.c-date {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+    top: -14.4rem;
+    left: 20rem;
+}
+
+/* უკანა ბარათის პოზიცია*/
+.backcard {
+    margin-top: -25rem;
+    margin-left: 5rem;
+}
+
+/* CVC კოდი უკანა ბარათზე */
+.cvcc {
+    color: white;
+    position: relative;
+    top: -9.8rem;
+    left: 22.5rem;
+    font-weight: 600;
+}
+
+/* ფორმის სტილი */
+.form {
+    grid-area: form;
+    margin-top: 15rem;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 1;
+}
+
+/* ბარათის მფლობელი და ნომრი */
+.card-info1 {
+    display: flex;
+    flex-direction: column; /*- ეს შეგიძლია წაშალო*/
+    gap: 3rem;
+}
+
+/* თარიღი და CVC */
+.card-info2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 73px;
+}
+
+/* ღილაკი */
+.btn {
+    width: 25rem;
+    height: 3rem;
+    color: white;
+    background-color: rgb(12, 12, 66);
+    border-radius: 10px;
+    font-size: 1em;
+    margin-top: 2rem;
+}
+
+/* ინპუტ ველები */
+input {
+    border-radius: 10px;
+    height: 3rem;
+    width: 52%;
+    border: black solid 1px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+input,
+label {
+    display: block;
+}
+
+/* ტექსტ ინპუტი ცენტრში */
+input[type="text"] {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+/* ლოგოს პოზიცია */
+#logo {
+    position: relative;
+    top: -10.5rem;
+    right: 26.5rem;
+}

@@ -1,0 +1,109 @@
+body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/bg-main-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.creditcardbox{
+    width: 750;
+    height: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.front{
+    margin-right: 150px;
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-image: url('images/bg-card-front.png');
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+.back{
+    margin-left: 150px;
+    width: 600px;
+    height: 300px;
+    background-size: contain;
+    background-image: url('images/bg-card-back.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+.icon{
+    margin-bottom: 20px;
+}
+.card-number{
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: white;
+}
+.card-name,.card-expiry{
+    font-size: 0.9em;
+}
+.cvc{
+    position: absolute;
+    top: 135px;
+    right: 120px;
+    color: white;
+}
+.forms{
+    width: 1000px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}
+input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+.row input{
+    width: 20px;
+}
+#CVC{
+    width: 100px;
+}
+button{
+    padding: 12px;
+    background-color: #2d0b49;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.success {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .success h2 {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  #continueBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
